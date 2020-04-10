@@ -1,5 +1,12 @@
 # Yelp-Website-Scraping-with-Beautiful-Soup
 
+**Note**
+1. The code might not work due to HTML structure change of the website.
+
+2. Selenium driver needs to be downloaded before running the code. Website for downloading: https://selenium-python.readthedocs.io/
+
+3. If you are interested about review analysis on Yelp website, welcome to have a look at my another project at: https://github.com/Cryyyystal/Analysis-of-Yelp-Review-for-Chipotle-Mexican-Grill
+
 **Description**
 
 This project shows the whole process of scraping information of Starbucks stores in ten cities from Yelp website. I stored all the data into MangoDB since it has a flexible sturecture and more stable for large-scale data storage. You can easily change the store name to others based on your interests. The scraped data can be used to do review analysis, image analysis for each store or business analysis across industries.
@@ -14,9 +21,3 @@ Besides reviews. I scraped 9 fields for each store: “store_id”, “name”, 
 **Technical Skills**
 
 The packages used for scraping are Beautiful Soup and Seledium in Python. Besides, regular expression and HTML are prerequired skills.
-
-
-**Note**
-1. If you are interested about review analysis on Yelp website, welcome to have a look at my another project at: https://github.com/Cryyyystal/Analysis-of-Yelp-Review-for-Chipotle-Mexican-Grill
-
-2. The code might not work due to HTML structure change of the website.
